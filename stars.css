@@ -1,0 +1,39 @@
+.star {
+  width: 32%;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+}
+
+.star img {
+  width: 100%;
+  height: auto;
+}
+
+.star-info {
+  padding: 15px;
+}
+
+.star-info h2 {
+  margin: 0;
+}
+
+.star-info p {
+  margin: 5px 0;
+}
+
+.goals {
+  background-color: #034694;
+  color: #ffffff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+@media (max-width: 600px) {
+  .star {
+    width: 100%;
+  }
+}

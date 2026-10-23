@@ -1,0 +1,29 @@
+.matches {
+  list-style: none;
+  padding: 0;
+}
+
+.match {
+  border-left: 6px solid #034694;
+  background-color: #f4f6fb;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+}
+
+.away {
+  border-left-color: #dba111;
+}
+
+.match h3 {
+  margin: 0;
+}
+
+.match p {
+  margin: 4px 0 0;
+}
+
+@media (max-width: 600px) {
+  .match h3 {
+    font-size: 16px;
+  }
+}

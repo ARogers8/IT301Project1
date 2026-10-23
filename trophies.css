@@ -1,0 +1,26 @@
+.trophy {
+  width: 32%;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #ffffff;
+  border-top: 6px solid #dba111;
+  box-sizing: border-box;
+}
+
+.trophy h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.count {
+  font-size: 32px;
+  font-weight: bold;
+  color: #034694;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .trophy {
+    width: 100%;
+  }
+}
